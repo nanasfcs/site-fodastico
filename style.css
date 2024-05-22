@@ -1,0 +1,114 @@
+body {
+    background-color: rgb(255, 255, 255);
+    background-image: url(img/cerveja.jpg);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    color: rgb(255, 253, 253);
+}
+
+header {
+    background-color: rgba(7, 6, 6, 0);
+    padding: 10px 0;
+    color: rgb(233, 226, 226); 
+    
+}
+
+header h1 {
+    text-align: center;
+    color: rgb(223, 210, 210);
+    
+}
+
+header ul {
+    text-align: right;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+     
+}
+
+a{
+    text-decoration: none;
+    color: #fff6f6;
+}
+
+#Sobre {
+    text-align: center;
+    color: rgb(255, 243, 243);
+    position: relative;
+    
+}
+
+#Sobre ::before {
+    content: "";
+    background-image: url(img/);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 1.0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+
+}
+
+#premier {
+    color: rgb(255, 253, 253);
+}
+
+.card{
+    width: 300px;
+    border: 1px solid #ffffffe0;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 300px;
+    margin: 10px;
+    display: inline-block;
+
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+}
+
+.card text {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 252, 252);
+    height: 300px;
+    
+}
+#backToTop{
+    padding: 10px 20px;
+    background-color:rgba(246, 246, 247, 0);
+    color:black;
+    border: none;
+    cursor: pointer; 
+    border-radius: 5px;
+    opacity: 0.4 ;
+    transition: opacity 0.3s;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index:1000;
+
+}
+
+#backToTop:hover {
+    opacity: 1;
+}
